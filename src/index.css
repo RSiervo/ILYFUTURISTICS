@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "Share Tech Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@keyframes scan {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { text-shadow: 0 0 5px rgba(239,68,68,0.5); }
+  50% { text-shadow: 0 0 15px rgba(239,68,68,1); }
+}

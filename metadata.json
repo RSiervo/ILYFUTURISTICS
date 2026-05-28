@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Protocol Love",
+  "description": "A futuristic application that progressively draws a glowing heart out of the words \u0027I love you\u0027.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
